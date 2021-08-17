@@ -1,0 +1,139 @@
+
+
+
+*{
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+} 
+
+.wrapper{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 380px;
+    background-color: hsl(225, 100%, 98%);
+    box-shadow: 0px 3px 10px 0px rgb(185, 184, 184);   
+    border-radius: 15px;
+    position: fixed;
+    top: 15%;
+    left: 30%;
+    justify-self: center;
+    
+    transition: translate(-50%, -50%);
+    user-select: none;
+    cursor: pointer;
+
+}
+
+.container .flex-pics{
+    height: 150px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    margin: 0px;
+}
+
+.container .p-head{
+    font-weight: 900;
+    font-size: 20px;
+    text-decoration: solid;
+    position: relative;
+    left: 30%;
+    justify-content: center;
+    color: hsl(223, 47%, 23%);
+    margin-top: 0px;
+}
+
+.container .paragraph{
+    font-size: 16px;
+    align-content: center;
+    margin: 10px 40px;
+    color: hsl(224, 23%, 55%);
+    margin-top: 0px;
+}
+
+.container p{
+    text-align: center;
+}
+
+.wrapper .Annual{
+    background-color: hsl(225, 100%, 96%);
+    margin: 0px 15px;
+    justify-content: center;
+    display: block;
+    height: 70px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.Annual .music{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin: 15px 30px;
+
+}
+
+.Annual .para1{
+    font-weight: 600;
+    color: hsl(223, 47%, 23%);
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 80px;
+
+}
+
+.Annual .para2{
+    display: inline-block;
+    font-weight: 400;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 16px;
+  
+}
+
+.Annual .link{
+    float: right;
+    margin-top: -38px;
+    margin-right: 30px;
+}
+
+.Annual a{
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.proceed .sub{
+     padding: 15px 75px;
+     margin: 20px 40px;
+     border-radius: 15px;
+     background-color: hsl(224, 99%, 32%);
+     box-shadow: 0px 3px 5px 3px rgb(193, 193, 194);
+}
+
+.proceed a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.proceed .can{
+    position: relative;
+    top: 20px;
+    left: 140px;
+    color: hsl(224, 23%, 55%);
+}
